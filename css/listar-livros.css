@@ -30,7 +30,8 @@ h1 {
     background-color: rgba(255, 255, 255);
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: center;
     border: 1px solid #E7E7E7;
@@ -47,7 +48,8 @@ td {
 
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     text-align: left;
     border: 1px solid #FFFFFF;
@@ -75,16 +77,17 @@ th {
 }
 
 header {
-    background-color: rgba(66, 19, 7, 1); /* Fundo marrom */
+    background-color: rgba(66, 19, 7, 1);
+    /* Fundo marrom */
     padding: 10px 0;
     text-align: center;
 }
 
 header nav a {
     margin: 0 80px;
-    color: white; /* Texto branco */
+    color: white;
+    /* Texto branco */
     font-size: 37px;
-    text-decoration: none; 
-    
-}
+    text-decoration: none;
 
+}

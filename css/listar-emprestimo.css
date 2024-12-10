@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@200;400&display=swap');
 
 * {
@@ -9,7 +8,7 @@
 
 body {
     font-family: 'Koh Santepheap', Arial, sans-serif;
-    background-image: url('/assets/fundoemprestimo.png'); 
+    background-image: url('/assets/fundoemprestimo.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -20,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     min-height: 100vh;
 }
 
@@ -38,7 +37,8 @@ table {
     margin-bottom: 20px;
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     text-align: left;
     border: 1px solid #FFFFFF;
@@ -55,42 +55,43 @@ th {
 
 /* Estilo do cabeçalho */
 header {
-    background-color: rgba(82, 50, 31, 0.9); /* Fundo marrom semitransparente */
+    background-color: rgba(82, 50, 31, 0.9);
+    /* Fundo marrom semitransparente */
     padding: 15px 0;
     text-align: center;
 }
 
 
 header nav a {
-    margin: 0 25px; 
-    color: white; 
-    font-size: 22px; 
-    text-decoration: none; 
-    text-transform: uppercase; 
-    transition: color 0.3s ease-in-out; 
+    margin: 0 25px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
 }
 
 
 header nav a.active {
     color: #f4e1c1;
-    border-bottom: 2px solid #f4e1c1; 
+    border-bottom: 2px solid #f4e1c1;
     padding-bottom: 5px;
 }
 
 
 button.novo-emprestimo {
-    background-color: #5a3b2e; 
-    color: #ffffff; 
-    font-size: 30px; 
-    border: 1px solid #ffffff; 
-    border-radius: 0px; 
-    padding: 10px 20px; 
-    text-align: center; 
-    text-decoration: none; 
+    background-color: #5a3b2e;
+    color: #ffffff;
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
     font-family: 'Koh Santepheap', Arial, sans-serif;
 }
 
 
 button.novo-emprestimo:hover {
-    border-color: #ffffff; 
+    border-color: #ffffff;
 }

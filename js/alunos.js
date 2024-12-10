@@ -9,7 +9,7 @@ async function enviaFormularioAluno() {
     };
 
     try {
-        const respostaServidor = await fetch("http://localhost:3333/novo/aluno", {
+        const respostaServidor = await fetch("http://localhost:3333//alunos", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

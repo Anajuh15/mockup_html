@@ -2,15 +2,15 @@
 
 body {
     font-family: 'Koh Santepheap', Arial, sans-serif;
-    background-color: rgba(71, 46, 17, 0.86); 
+    background-color: rgba(71, 46, 17, 0.86);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-left: 370px;
 }
 
-h1 { 
-    font-weight: normal; 
+h1 {
+    font-weight: normal;
 }
 
 h1 {
@@ -21,13 +21,13 @@ h1 {
 }
 
 form label {
-    display: block; 
-    margin-bottom: 0.5rem; 
+    display: block;
+    margin-bottom: 0.5rem;
     font-weight: normal;
 }
 
 form input {
-    width: 160%; 
+    width: 160%;
     padding: 0.5rem;
     margin-bottom: 1.5rem;
     border: none;
@@ -35,7 +35,7 @@ form input {
     font-size: 1rem;
     background-color: #6B5C3F;
     color: #000000;
-    font-weight: normal; 
+    font-weight: normal;
 }
 
 form input:focus {
@@ -52,7 +52,7 @@ form input[type="submit"] {
     font-family: 'Koh Santepheap', Arial, sans-serif;
     width: 50%;
     background-color: #6B5C3F;
-    font-weight: normal; 
+    font-weight: normal;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -60,4 +60,3 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #6B5C3F;
 }
-

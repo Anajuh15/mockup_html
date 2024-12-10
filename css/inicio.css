@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
 
 /* estilo.css */
@@ -9,23 +8,25 @@
 }
 
 body {
-    font-family: Koh ,Santepheap;
-    background-image: url('/assets/biblioteca.png'); /* Substitua 'background.jpg' pela imagem de fundo da biblioteca */
+    font-family: Koh, Santepheap;
+    background-image: url('/assets/biblioteca.png');
+    /* Substitua 'background.jpg' pela imagem de fundo da biblioteca */
     background-size: cover;
     background-position: center;
     color: rgb(10, 9, 9);
 }
 
-.esquerda, 
-.meio, 
+.esquerda,
+.meio,
 .direita {
     width: 90%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
+
 /* Fonte Koh Santepheap */
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
 
@@ -33,12 +34,17 @@ body {
 .botão {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px; /* Espaçamento entre os links */
+    margin: 10px;
+    /* Espaçamento entre os links */
     border: none;
-    border-radius: 15px; /* Borda arredondada */
-    font-family: 'Koh Santepheap', sans-serif; /* Fonte */
-    text-decoration: none; /* Remover sublinhado */
-    color: #000000; /* Cor do texto */
+    border-radius: 15px;
+    /* Borda arredondada */
+    font-family: 'Koh Santepheap', sans-serif;
+    /* Fonte */
+    text-decoration: none;
+    /* Remover sublinhado */
+    color: #000000;
+    /* Cor do texto */
     cursor: pointer;
 }
 
@@ -60,7 +66,8 @@ body {
 /* Container para os links para deixá-los alinhados lado a lado */
 .link-container {
     display: flex;
-    justify-content: space-between; /* Espaçamento entre os links */
+    justify-content: space-between;
+    /* Espaçamento entre os links */
 }
 
 .painel-principal {
@@ -69,13 +76,15 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgba(164, 148, 4, 0.324); /* Fundo semitransparente */
+    background-color: rgba(164, 148, 4, 0.324);
+    /* Fundo semitransparente */
     text-align: center;
     padding: 200px;
 }
 
 .painel-esquerdo img {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+    width: 200px;
+    /* Ajuste o tamanho conforme necessário */
     margin-bottom: 5px;
 }
 
@@ -85,20 +94,19 @@ h1 {
     color: rgb(0, 0, 0, 0, 0, 0);
 }
 
-.esquerda, 
-.meio, 
+.esquerda,
+.meio,
 .direita {
     width: 90%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-   }
+}
 
 
 
 .imagem-arredondada {
-    border-radius: 30px; 
-    border: 2px solid #000; 
+    border-radius: 30px;
+    border: 2px solid #000;
 }
-
