@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
+
+body {
+    font-family: 'Koh Santepheap', Arial, sans-serif;
+    background-color: rgba(71, 46, 17, 0.86); 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 370px;
+}
+
+h1 { 
+    font-weight: normal; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+form label {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    font-weight: normal;
+}
+
+form input {
+    width: 160%; 
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #6B5C3F;
+    color: #000000;
+    font-weight: normal; 
+}
+
+form input:focus {
+    outline: none;
+    background-color: #6B5C3F;
+}
+
+form .submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+form input[type="submit"] {
+    font-family: 'Koh Santepheap', Arial, sans-serif;
+    width: 50%;
+    background-color: #6B5C3F;
+    font-weight: normal; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6B5C3F;
+}
+

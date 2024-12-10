@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
+
+/* estilo.css */
+* {
+    margin: 2;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Koh ,Santepheap;
+    background-image: url('/assets/biblioteca.png'); /* Substitua 'background.jpg' pela imagem de fundo da biblioteca */
+    background-size: cover;
+    background-position: center;
+    color: rgb(10, 9, 9);
+}
+
+.esquerda, 
+.meio, 
+.direita {
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* Fonte Koh Santepheap */
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
+
+/* Estilos gerais para os links */
+.botão {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px; /* Espaçamento entre os links */
+    border: none;
+    border-radius: 15px; /* Borda arredondada */
+    font-family: 'Koh Santepheap', sans-serif; /* Fonte */
+    text-decoration: none; /* Remover sublinhado */
+    color: #000000; /* Cor do texto */
+    cursor: pointer;
+}
+
+/* Estilo específico para o link Alunos */
+.alunos {
+    background-color: #C89116;
+}
+
+/* Estilo específico para o link Livros */
+.livros {
+    background-color: #C89116;
+}
+
+/* Estilo específico para o link Empréstimo */
+.emprestimo {
+    background-color: #C89116;
+}
+
+/* Container para os links para deixá-los alinhados lado a lado */
+.link-container {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os links */
+}
+
+.painel-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(164, 148, 4, 0.324); /* Fundo semitransparente */
+    text-align: center;
+    padding: 200px;
+}
+
+.painel-esquerdo img {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0, 0, 0, 0);
+}
+
+.esquerda, 
+.meio, 
+.direita {
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+
+.imagem-arredondada {
+    border-radius: 30px; 
+    border: 2px solid #000; 
+}
+

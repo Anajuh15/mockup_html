@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Koh, Santepheap;
+    background-image: url('/assets/fundolivros.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #E7E7E7;
+    color: white;
+    font-size: 20px;
+}
+
+th {
+    background-color: #38130F;
+}
+
+td {
+    background-color: rgba(56, 19, 15, 1);
+
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #FFFFFF;
+    color: white;
+}
+
+th {
+    font-weight: normal;
+}
+
+.novo-livro {
+    background-color: rgba(66, 19, 7, 1);
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 100;
+}
+
+.novo-livro:hover {
+    background-color: rgba(66, 19, 7, 1);
+}
+
+header {
+    background-color: rgba(66, 19, 7, 1); /* Fundo marrom */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 80px;
+    color: white; /* Texto branco */
+    font-size: 37px;
+    text-decoration: none; 
+    
+}
+

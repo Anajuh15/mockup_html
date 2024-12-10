@@ -1,0 +1,83 @@
+/* Fonte Koh Santepheap */
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
+
+
+header nav a {
+    margin: 0 30px; 
+    color: white; 
+    font-size: 37px; 
+    text-decoration: none; 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Koh Santepheap', sans-serif;
+    background-image: url('/assets/fundoaluno.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 200;
+}
+
+.painel-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: rgba(75, 56, 50, 1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #FFFFFF;
+    color: white;
+}
+
+th {
+    font-weight: normal;
+}
+
+.novo-aluno {
+    font-family: 'Koh Santepheap', sans-serif;
+    background-color: rgba(75, 56, 50, 1);
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 100;
+}
+
+.novo-aluno:hover {
+    background-color: rgba(75, 56, 50, 1);
+}
+
+
+header {
+    background-color: rgba(75, 56, 50, 1); 
+    padding: 10px 0;
+    text-align: center;
+}
